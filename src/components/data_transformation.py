@@ -12,7 +12,7 @@ from src.utils import save_object
 
 @dataclass
 class DataTransformationConfig:
-    preprocessor_obj_file_path =os.path.join('artifacts',"preprocesssor.pkl")
+    preprocessor_obj_file_path =os.path.join('artifact',"preprocesssor.pkl")
 
 class DataTransformation:
     def __init__(self):
